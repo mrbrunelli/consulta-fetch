@@ -1,1 +1,1 @@
-# Realizar consultar ao backend utilizando o fetch
+# Realizar consultas ao backend utilizando o fetch
