@@ -4,7 +4,7 @@ Hoje não há mais necessidade de se usar o ajax do jquery, é possível fazer o
 ## Exemplo de uso com o método GET
 Ao utilizar o método **GET** eu preciso passar os dados por url.
 ```javascript
-fetch(`consulta.php?acao=${dados}) // Passar conteúdo por url
+fetch(`consulta.php?acao=${dados}`) // Passar conteúdo por url
     .then(res => res.text())
     .then(res => console.log(res))
     catch(error => console.error(error))
