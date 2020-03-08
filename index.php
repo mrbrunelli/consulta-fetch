@@ -10,12 +10,19 @@
 
 <body>
 
+    <div class="row justify-content-center mt-4">
+        <h1 class="text-center display-4 text-muted mr-4">Requisições fetch </h1>
+        <img src="./javascript.png" width="70" height="70">
+    </div>
+
     <div class="row justify-content-around mt-5">
         <div class="shadow p-4">
             <label for="nome">Nome</label>
-            <input type="text" class="form-control" name="nome" id="nome">
+            <input type="text" class="form-control" name="nome" id="nome" autofocus>
             <button class="btn btn-primary btn-block mt-4" onclick="fnConsultarDados()">Consultar dados</button>
         </div>
+
+
 
         <div class="shadow p-4">
             <label for="mensagem">Mensagem</label>
