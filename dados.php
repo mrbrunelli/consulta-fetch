@@ -1,7 +1,5 @@
 <?php
 
-var_dump($_POST);
-
 if ($_GET) {
     $nome = $_GET['nome'];
 
