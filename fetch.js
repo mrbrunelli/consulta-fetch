@@ -1,11 +1,11 @@
 fnConsultarDadosPost = () => {
-    const nome = document.querySelector('#nome').value
+    const nome = 'nome=' + document.querySelector('#nome').value
 
     fetch('dados.php', {
         method: 'POST',
         body: nome,
         headers: {
-            'Content-Type': 'plain/text'
+            'Content-Type': 'application/x-www-form-urlencoded'
         }
     })
         .then(res => res.text())
