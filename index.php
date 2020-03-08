@@ -23,7 +23,8 @@ date_default_timezone_set('America/Sao_Paulo');
         <div class="shadow p-4">
             <label for="nome">Nome</label>
             <input type="text" class="form-control" name="nome" id="nome" autofocus>
-            <button class="btn btn-primary btn-block mt-4" onclick="fnConsultarDados()">Consultar dados</button>
+            <button class="btn btn-primary btn-block mt-4" onclick="fnConsultarDadosPost()">Consultar com POST</button>
+            <button class="btn btn-primary btn-block mt-4" onclick="fnConsultarDadosGet()">Consultar com GET</button>
         </div>
 
 

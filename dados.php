@@ -1,5 +1,13 @@
 <?php
 
-$nome = $_GET['nome'];
+var_dump($_POST);
 
-echo "Conteúdo recebido com sucesso! Seu nome é $nome";
+if ($_GET) {
+    $nome = $_GET['nome'];
+
+    echo "Conteúdo recebido por GET com sucesso! Seu nome é $nome";
+} else if ($_POST) {
+    $nome = $_POST['nome'];
+
+    echo "Conteúdo recebido por POST com sucesso! Seu nome é $nome";
+}
