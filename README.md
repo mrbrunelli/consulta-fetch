@@ -51,5 +51,5 @@ if ($_GET) { // Caso seja GET ele cairá aqui
 ``` 
 
 ## Espero que eu tenha te ajudado!
-*Fique de olho aqui no meu perfil, sempre irei postar alguns tutoriais com a tag #tutorial. Até a próxima!*
+Fique de olho aqui no meu perfil, sempre irei postar alguns tutoriais com a tag **#tutorial**. Até a próxima!
 
