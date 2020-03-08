@@ -1,5 +1,5 @@
 # Realizar consultas ao backend utilizando o fetch
-Hoje não há mais necessidade de se usar o ajax do jquery, é possível fazer o mesmo trabalho usando o fetch, que é nativo do javascript, e contar com as vantagens das promises.
+Hoje não há mais necessidade de se usar o ajax do jquery, é possível fazer o mesmo trabalho usando o fetch, que é nativo do javascript. E podemos contar com as vantagens das promises.
 
 ## Exemplo de uso com o método GET
 Ao utilizar o método **GET** eu preciso passar os dados por url.
