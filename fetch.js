@@ -23,3 +23,21 @@ fnConsultarDadosGet = () => {
 fnExibirResultado = (dados) => {
     document.querySelector('#mensagem').innerHTML = dados
 }
+
+window.onload = () => {
+    fnAtualizarHoras()
+}
+
+setInterval(() => {
+    fnAtualizarHoras()
+}, 1000)
+
+fnAtualizarHoras = () => {
+    const horas = document.querySelector('#horas')
+
+    fetch(`dados.php?acao=horas`)
+        .then(res => res.text())
+        .then(res => {
+            horas.innerHTML = res
+        })
+}
