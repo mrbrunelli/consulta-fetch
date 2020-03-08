@@ -13,7 +13,7 @@ fetch(`consulta.php?acao=${dados}) // Passar conteúdo por url
 ## Exemplo de uso com o método POST
 Ao utilizar o método **POST** eu preciso de um pouco mais de código.
 ```javascript
-let dados = 'conteudo=' + conteudo
+let dados = 'conteudo=' + conteudo // Concatenar a chave com o valor
 
 fetch('consulta.php', {
     method: 'POST',
